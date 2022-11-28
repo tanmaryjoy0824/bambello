@@ -46,23 +46,23 @@
 
             &:focus {
                 background-color: white;
-                border: 2px solid #4c9aff;
+                border: 2px solid #6A0D0F;
                 box-shadow: 0 0 0;
             }
         }
 
         .login-signup-btn {
-            background: #61bd4f;
-            background: -webkit-gradient(linear, left top, left bottom, from(#61bd4f), to(#5aac44));
-            background: linear-gradient(to bottom, #61bd4f 0%, #5aac44 100%);
-            box-shadow: 0 2px 0 #3f6f21;
+            background: #6A0D0F;
+            background: -webkit-gradient(linear, left top, left bottom, from(#6A0D0F), to(#A01E21));
+            background: linear-gradient(to bottom, #6A0D0F 0%, #A01E21 100%);
+            box-shadow: 0 2px 0 #A01E21;
             color: #fff;
             font-weight: bold;
             box-shadow: none;
             margin-bottom: 17px;
 
             &:hover {
-                background-color: #61bd4f;
+                background-color: #C44346;
             }
         }
 
@@ -135,7 +135,7 @@
     }
 
     @include for-wide-layout {
-        background-color: #f9fafc;
+        background-color: #FFF8E9;
         .left-logo,
         .right-logo {
             display: block;

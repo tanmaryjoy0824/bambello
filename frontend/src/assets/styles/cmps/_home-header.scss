@@ -20,7 +20,7 @@
             font-size: 36px;
             line-height: 36px;
             font-family: SourceSans-Bold;
-            color: #293856;
+            color: #6A0D0F;
             svg {
                 width: 26px;
                 height: 26px;
@@ -39,19 +39,19 @@
             }
             .login-btn {
                 letter-spacing: 1px;
-                color: #0065ff;
+                color: #7f1416;
                 // font-weight: 500;
                 &:hover {
-                    color: #0051cc;
+                    color: #6A0D0F;
                     text-decoration: underline;
                 }
             }
             .signup-btn {
                 letter-spacing: 1px;
                 color: #fff;
-                background-color: #0065ff;
+                background-color: #7f1416;
                 &:hover {
-                    background-color: #0051cc;
+                    background-color: #6A0D0F;
                 }
                 // font-weight: 500;
             }

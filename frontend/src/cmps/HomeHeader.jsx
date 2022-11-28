@@ -1,6 +1,5 @@
 import { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { ReactComponent as HomepageLogo } from '../assets/img/logos/home-logo.svg'
 
 export class HomeHeader extends Component {
 
@@ -32,8 +31,7 @@ export class HomeHeader extends Component {
             <header className={`home-header ${isNavBgVisible ? 'visibleBg' : ''}`}>
                 <nav className="flex justify-space-between">
                     <div className="logo">
-                        <HomepageLogo />
-                        Bambello
+                        D-altask
                     </div>
 
                     <div className="nav-btns">

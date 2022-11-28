@@ -1,5 +1,5 @@
 .home {
-    background: linear-gradient(0deg, #fff, #eae6ff 100%);
+    background: linear-gradient(0deg, #fff, #FFF8E9 100%);
     .home-container {
         padding: 0 15px;
         margin: auto;
@@ -33,10 +33,10 @@
                     line-height: rem(44px);
                     letter-spacing: 1px;
                     color: #fff;
-                    background-color: #0065ff;
+                    background-color: #7f1416;
                     // border-radius: $borderRad1;
                     &:hover {
-                        background-color: #0051cc;
+                        background-color: #6A0D0F;
                     }
                 }
             }
@@ -70,14 +70,14 @@
                 border-radius: 6px;
                 padding: 5px 15px;
                 line-height: rem(44px);
-                color: #0065ff;
+                color: #7f1416;
                 background-color: transparent;
                 background-image: none;
-                border: 1px solid #0065ff;
+                border: 1px solid #7f1416;
                 &:hover {
                     color: #fff;
-                    background-color: #0065ff;
-                    border-color: #0065ff;
+                    background-color: #7f1416;
+                    border-color: #7f1416;
                 }
             }
 

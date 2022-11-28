@@ -6,7 +6,7 @@ import { GoogleLogin } from 'react-google-login'
 import { ReactComponent as LogoRight } from '../assets/img/logos/auth-right-logo.svg'
 import { ReactComponent as LogoLeft } from '../assets/img/logos/auth-left-logo.svg'
 import { onLogin, onSignup, onGoogleLogin } from '../store/actions/app.actions.js'
-import { ReactComponent as LoginSignupLogo } from '../assets/img/logos/login-signup-logo.svg'
+// import { ReactComponent as LoginSignupLogo } from '../assets/img/logos/favicon.svg'
 
 
 export class _LoginSignup extends Component {
@@ -78,15 +78,15 @@ export class _LoginSignup extends Component {
         if (!pageMode) return ''
         return (<section className="login-signup-container">
             <Link to="/" className="clean-link"><div className="logo flex align-center justify-center">
-                <LoginSignupLogo />
-                <h1>Bambello</h1>
+                {/* <LoginSignupLogo /> */}
+                <h1>D-altask</h1>
             </div>
             </Link>
             {pageMode === 'login' && <div className="login-signup flex column">
-                <h3>Log in to Bambello</h3>
+                <h3>Log in to D-altask</h3>
                 <Formik initialValues={credentials} onSubmit={this.onSubmit} >
                     <Form className="flex column">
-                        <Field type="username" placeholder="Enter username" name="username" autoFocus />
+                        <Field type="username" placeholder="Enter Email Address" name="username" autoFocus />
                         <ErrorMessage name="username" component="div" />
                         <Field type="password" placeholder="Enter password" name="password" />
                         <ErrorMessage name="password" component="div" />
@@ -113,7 +113,7 @@ export class _LoginSignup extends Component {
                         <Form className="flex column">
                             <Field type="fullname" placeholder="Enter fullname" name="fullname" autoFocus />
                             <ErrorMessage name="fullname" component="p" />
-                            <Field type="username" placeholder="Enter username" name="username" />
+                            <Field type="username" placeholder="Enter Email Address" name="username" />
                             <ErrorMessage name="username" component="p" />
                             <Field type="password" placeholder="Enter password" name="password" />
                             <ErrorMessage name="password" component="p" />

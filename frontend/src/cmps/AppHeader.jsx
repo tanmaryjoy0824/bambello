@@ -78,9 +78,9 @@ class _AppHeader extends Component {
                     </button>
                 </div>
                 <div className="logo flex align-center">
-                    <Link to="/">
-                        <BoardIcon />
-                        <span>Bambello</span>
+                    <Link to="/workspace">
+                        {/* <BoardIcon /> */}
+                        <span>D-altask</span>
                     </Link>
                 </div>
                 <div className="btn-header-container flex">

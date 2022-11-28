@@ -47,7 +47,7 @@ class _PopoverInvite extends Component {
                         toggleMember={this.addMember} isSelected={this.isMemberInBoard(member)} />)}
                 </div>
 
-                <button className="primary-btn">Send invitation</button>
+                {/* <button className="primary-btn">Send invitation</button> */}
             </div>
 
         </Popover>
